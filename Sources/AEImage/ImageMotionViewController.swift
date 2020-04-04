@@ -4,6 +4,7 @@
  *  Licensed under the MIT license
  */
 
+#if !os(tvOS)
 import UIKit
 import CoreMotion
 
@@ -223,3 +224,4 @@ extension ImageMotionViewController: UIScrollViewDelegate {
         }
     }
 }
+#endif
